@@ -193,8 +193,8 @@ class OSMReverseGeocoder
     HTML
     
     results.each do |row|
-      lat = row['lat'] || row['latitude'] || row['Lat'] || row['Latitude']
-      lon = row['lon'] || row['longitude'] || row['Long'] || row['Longitude'] || row['lng']
+      lat = row['lat'] || row['latitude'] || row['Lat'] || row['Latitude'] || row['Y']
+      lon = row['lon'] || row['longitude'] || row['Long'] || row['Longitude'] || row['lng'] || row['X']
       
       status_class = case row['review_status']
                     when 'PENDING' then 'pending'
