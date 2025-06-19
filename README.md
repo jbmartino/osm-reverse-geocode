@@ -1,5 +1,7 @@
 # osm-reverse-geocode
-quick way to reverse geocode a csv with lat/longs and provide a full address
+I wanted a quick way to reverse geocode a csv with lat/longs and provide a full address as well as google maps links and street view links for verification.
+
+This ruby implementation uses open street map api to accomplish this.
 
 ## Usage
 
