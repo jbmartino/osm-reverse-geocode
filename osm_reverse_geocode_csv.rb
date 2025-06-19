@@ -161,7 +161,7 @@ class OSMReverseGeocoder
       <!DOCTYPE html>
       <html>
       <head>
-        <title>E85 Station Review</title>
+        <title>Address Review</title>
         <style>
           body { font-family: Arial, sans-serif; margin: 20px; }
           table { border-collapse: collapse; width: 100%; }
@@ -176,7 +176,7 @@ class OSMReverseGeocoder
         </style>
       </head>
       <body>
-        <h1>E85 Station Review - #{results.length} locations</h1>
+        <h1>Address Review - #{results.length} locations</h1>
         <p>Click the links to verify each location, then update the review status.</p>
         
         <table>
@@ -226,9 +226,8 @@ class OSMReverseGeocoder
         <ol>
           <li>Click "Maps" to see the location on Google Maps</li>
           <li>Click "Street View" to see the actual location</li>
-          <li>Verify if there's an E85 station at this location</li>
+          <li>Verify the location</li>
           <li>Update your CSV with status: APPROVED, REJECTED, or NEEDS_UPDATE</li>
-          <li>Add any notes about the station (name, brand, etc.)</li>
         </ol>
       </body>
       </html>
