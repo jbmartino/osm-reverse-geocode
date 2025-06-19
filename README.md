@@ -8,7 +8,7 @@ This ruby implementation uses open street map api to accomplish this.
 - Install Ruby 2.7+
 - Clone the repo
 - cd osm-reverse-geocode
-- ```ruby osm_reverse_geocode_csv.rb example-lat-long.csv```
+- ```ruby reverse_geocode_csv.rb example-lat-long.csv```
 
 This will create:
 
